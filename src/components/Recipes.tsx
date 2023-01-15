@@ -1,4 +1,3 @@
-// import { Typography } from "@mui/material";
 import React from "react";
 import { ProductType } from "../App";
 import { Container } from "@mui/material";

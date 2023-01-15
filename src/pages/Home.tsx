@@ -1,6 +1,5 @@
-import React from "react";
-
 import { Paper, Typography, Box } from "@mui/material";
+
 import Image from "../assets/food.jpeg";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";

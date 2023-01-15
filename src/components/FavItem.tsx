@@ -39,10 +39,7 @@ function FavItem({ item, favList, setFavList, removeProduct }: Prop) {
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };
-  // const removeFav = () => {
-  //   const result = favList.filter((el) => el.idMeal !== item.idMeal);
-  //   setFavList(result);
-  // };
+ 
 
   return (
     <Card sx={{ maxWidth: 345 }}>

@@ -1,11 +1,9 @@
 import React from "react";
-
 import { Box, Typography } from "@mui/material";
-
-import { ProductType } from "../App";
-
 import { Container } from "@mui/material";
 import FavItem from "../components/FavItem";
+
+import { ProductType } from "../App";
 
 type FavCartType = {
   favList: ProductType[];

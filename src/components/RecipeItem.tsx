@@ -24,9 +24,7 @@ type Prop = {
 type ExpandMoreProps = IconButtonProps & {
   expand: boolean;
 };
-// interface ExpandMoreProps extends IconButtonProps {
-//   expand: boolean;
-// }
+
 
 const ExpandMore = styled((props: ExpandMoreProps) => {
   const { expand, ...other } = props;
